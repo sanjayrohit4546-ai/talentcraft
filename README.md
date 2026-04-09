@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# HireGen AI 🚀
 
-# Run and deploy your AI Studio app
+## Overview
+HireGen AI is an intelligent recruitment assistant that automates the creation of job descriptions, screening criteria, interview questions, and evaluation rubrics. It helps organizations hire efficiently, fairly, and with reduced bias.
 
-This contains everything you need to run your app locally.
+## Features
+- 📄 Auto-generate job descriptions
+- 🎯 Define candidate screening criteria
+- ❓ Generate interview questions
+- 📊 Create evaluation rubrics
+- 🌍 Promote diversity & inclusion
+- ⚖️ Ensure basic legal compliance
 
-View your app in AI Studio: https://ai.studio/apps/024eae10-5cd0-4085-8d08-cd6d63dfe100
+## How It Works
+1. Input job role and requirements  
+2. Add company culture details  
+3. AI analyzes industry standards  
+4. Generates complete hiring package  
 
-## Run Locally
+## Tech Stack
+- Python  
+- Streamlit  
+- OpenAI API  
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Installation
+```bash
+pip install streamlit openai
